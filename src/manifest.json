@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "Monad to Gonad",
+	"version": "1.0",
+	"description": "Sick of Haskellers talk about Monads Applicatives and Functors? This extension replaces them with Gonads, Asslickatives and Fucktors",
+	"content_scripts": 
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["script.js"],
+			"run_at": "document_end"
+		}
+	]
+}
